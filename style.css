@@ -1,67 +1,39 @@
-@import url('https://fonts.googleapis.com/css2?family=Calligraffitti&display=swap');
 body{
-    background-color: ivory;
     text-align: center;
-    font-family: 'Calligraffitti', cursive;
+}
+h1{
+    font-size: 1.2em;
+    margin: 10px;
+}
+table{
+    margin-top: 3%;
+    margin-bottom: 3%;
+}
+table,th,tr,td{
+    margin: auto;
+    border: 2px solid black;
+    border-spacing: 5px;
+    border-collapse: collapse;
+    font-size: 15px;
+    background-color: lightgray;
 }
 p{
-    padding-top: 150px;
-    font-size: 2.9em;
+    padding: 20px;
 }
-h3{
-    font-size: 3.2em;
+.light{
+    color: grey;
 }
-.change{
-    color: #9c27b0;
+.red{
+    color: red;
 }
-.change::after{
-    content: "";
-    animation: change 15s linear infinite;
+td:hover{
+    cursor: pointer;
+    background-color: white;
 }
-@keyframes change{
-    0%{
-        content: "red";
-        color: red;
-    }
-    10%{
-        content: "yellow";
-        color: yellow;
-    }
-    20%{
-        content: "green";
-        color: green;
-    }
-    30%{
-        content: "indigo";
-        color: indigo;
-    }
-    40%{
-        content: "purple";
-        color: purple;
-    }
-    50%{
-        content: "pink";
-        color: pink;
-    }
-    60%{
-        content: "black";
-        color: black;
-    }
-    70%{
-        content: "blue";
-        color: blue;
-        }
-    80%{
-        content: "silver";
-        color: silver;
-    }
-    90%{
-        content: "gold";
-        color: gold;}
-
-    100%{
-        content: "grey";
-        color: grey;
-    }
-
+caption{
+    padding: 10px;
+    font-size: large;
+}
+th{
+    background-color: tomato;
 }
